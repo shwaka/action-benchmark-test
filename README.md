@@ -1,3 +1,5 @@
+<https://shwaka.github.io/action-benchmark-test/dev/bench/>
+
 予め `gh-pages` ブランチを用意しておく:
 ```bash
 git checkout --orphan gh-pages
