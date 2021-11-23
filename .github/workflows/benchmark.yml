@@ -1,0 +1,20 @@
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  benchmark:
+    name: benchmark test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run benchmark
+        run: ./benchmark.sh
+      - name: Store benchmark result
+        uses: benchmark-action/github-action-benchmark@v1
+        with:
+          tool: customSmallerIsBetter
+          output-file-path: result.json
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          auto-push: true

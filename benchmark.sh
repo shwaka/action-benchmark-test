@@ -1,6 +1,6 @@
 #! /bin/bash
 
-cat << EOS
+cat > result.json << EOS
 [
     {
         "name": "My Custom Smaller Is Better Benchmark - CPU Load",
