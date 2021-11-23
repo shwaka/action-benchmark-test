@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637663928465,
+  "lastUpdate": 1637666145939,
   "repoUrl": "https://github.com/shwaka/action-benchmark-test",
   "entries": {
     "Benchmark": [
@@ -95,6 +95,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/shwaka/action-benchmark-test/commit/4c140b7b852c31a660b71a9f05b3e44797cceb05"
         },
         "date": 1637663927907,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "My Custom Smaller Is Better Benchmark - CPU Load",
+            "value": 50,
+            "unit": "Percent"
+          },
+          {
+            "name": "My Custom Smaller Is Better Benchmark - Memory Used",
+            "value": 100,
+            "unit": "Megabytes",
+            "range": "3",
+            "extra": "Value for Tooltip: 25\nOptional Num #2: 100\nAnything Else!"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shun.wakatsuki@gmail.com",
+            "name": "Shun Wakatsuki",
+            "username": "shwaka"
+          },
+          "committer": {
+            "email": "shun.wakatsuki@gmail.com",
+            "name": "Shun Wakatsuki",
+            "username": "shwaka"
+          },
+          "distinct": true,
+          "id": "7a6b67a976f5066d00b22619361ced468a01a3d7",
+          "message": "update",
+          "timestamp": "2021-11-23T20:15:30+09:00",
+          "tree_id": "8130d641b28c35ca02d61d6db77080fd75c41dc4",
+          "url": "https://github.com/shwaka/action-benchmark-test/commit/7a6b67a976f5066d00b22619361ced468a01a3d7"
+        },
+        "date": 1637666145516,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
