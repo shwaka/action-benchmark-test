@@ -20,3 +20,9 @@ jobs:
           output-file-path: result.json
           github-token: ${{ secrets.GITHUB_TOKEN }}
           auto-push: true
+      - name: Upload
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: html
+          destination_dir: hoge
