@@ -12,7 +12,7 @@ cat > result.json << EOS
         "unit": "Megabytes",
         "value": 100,
         "range": "3",
-        "extra": "Value for Tooltip: 25\nOptional Num #2: 100\nAnything Else!",
+        "extra": "Value for Tooltip: 25\nOptional Num #2: 100\nAnything Else!"
     }
 ]
 EOS
