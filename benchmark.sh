@@ -13,6 +13,11 @@ cat > result.json << EOS
         "value": 100,
         "range": "3",
         "extra": "Value for Tooltip: 25\nOptional Num #2: 100\nAnything Else!"
+    },
+    {
+        "name": "float test",
+        "unit": "GB",
+        "value": 1.3
     }
 ]
 EOS
