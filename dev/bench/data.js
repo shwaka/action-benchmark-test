@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637666145939,
+  "lastUpdate": 1637815985487,
   "repoUrl": "https://github.com/shwaka/action-benchmark-test",
   "entries": {
     "Benchmark": [
@@ -144,6 +144,47 @@ window.BENCHMARK_DATA = {
             "unit": "Megabytes",
             "range": "3",
             "extra": "Value for Tooltip: 25\nOptional Num #2: 100\nAnything Else!"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shun.wakatsuki@gmail.com",
+            "name": "Shun Wakatsuki",
+            "username": "shwaka"
+          },
+          "committer": {
+            "email": "shun.wakatsuki@gmail.com",
+            "name": "Shun Wakatsuki",
+            "username": "shwaka"
+          },
+          "distinct": true,
+          "id": "c47bd500f718658c771b97fccc32ab276b357364",
+          "message": "update",
+          "timestamp": "2021-11-25T13:52:46+09:00",
+          "tree_id": "18178cd2016eea291eb01240988f1c5e4416590c",
+          "url": "https://github.com/shwaka/action-benchmark-test/commit/c47bd500f718658c771b97fccc32ab276b357364"
+        },
+        "date": 1637815984623,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "My Custom Smaller Is Better Benchmark - CPU Load",
+            "value": 50,
+            "unit": "Percent"
+          },
+          {
+            "name": "My Custom Smaller Is Better Benchmark - Memory Used",
+            "value": 100,
+            "unit": "Megabytes",
+            "range": "3",
+            "extra": "Value for Tooltip: 25\nOptional Num #2: 100\nAnything Else!"
+          },
+          {
+            "name": "float test",
+            "value": 1.3,
+            "unit": "GB"
           }
         ]
       }
